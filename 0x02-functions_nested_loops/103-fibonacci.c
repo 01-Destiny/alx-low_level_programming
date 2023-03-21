@@ -15,7 +15,7 @@ int main(void)
 	fn = afn = 0;
 	while (fn <= 4000000)
 	{
-		fn = n1 + n1;
+		fn = n1 + n2;
 		n1 = n2;
 		n2 = fn;
 		if ((n1 % 2) == 0)
