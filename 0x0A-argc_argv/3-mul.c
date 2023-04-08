@@ -2,20 +2,25 @@
 #include <stdlib.h>
 
 /**
- * main - main function
- *@argc: argument count
- *@argv: argument content
- * Return: always 0
+ * main - multiplies two numbers
+ * @argv: argument vector for values
+ * @argc: argument count
+ * Return: Always 0;
  */
 
 int main(int argc, char *argv[])
 {
+	int mul;
+
 	if (argc == 3)
 	{
-		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
-                return (0);
+		mul = atoi(argv[1]) * atoi(argv[2]);
+		printf("%d\n", mul);
 	}
 	else
+	{
 		printf("Error\n");
-	return (1);
+		return (1);
+	}
+	return (0);
 }
