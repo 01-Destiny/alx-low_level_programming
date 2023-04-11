@@ -1,10 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
+
 /**
- * alloc_grid - a function that returns a pointer to a 2-D array of integers.
- * @width: an input integer at number of columns
- * @height: an input integer at number of rows
- * Return: pointer to a 2D array, NULL on failure.
+ * alloc_grid - returns a pointer to a 2 dimensional array
+ * @width: function parameter
+ * @height: function parameter
+ * Return: not always 0
  */
 
 int **alloc_grid(int width, int height)
